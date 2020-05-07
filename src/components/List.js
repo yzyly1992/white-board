@@ -27,7 +27,7 @@ class List extends Component {
     const {showForm} = this.state;
     return (
       <div className="sticky-top bg-white">
-          <a className="ml5 mt3 f6 link dim br-pill ba ph3 pv2 mb2 dib black fl" href="#0">&#60;=</a>
+          <a className="ml5 mt3 f6 link dim br-pill ba ph3 pv2 mb2 dib black fl" href="http://pwplibsearch:5000">&#60;=</a>
           <h2 className="tc dib">White Board</h2>
           <div 
             onClick={() => this.setState({showForm: !showForm})}
