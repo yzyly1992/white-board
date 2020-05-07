@@ -1,0 +1,44 @@
+.to-do-list-container {
+  font-family: 'Courier New';
+  margin-top: 25px;
+}
+.to-do-list-item {
+  margin-top: 10px;
+  font-family: 'Courier New';
+  color: darkolivegreen;
+  /* color: white;
+  transition: background-color 1s; */
+}
+
+.to-do-list-item:hover {
+  background-color: rgb(175, 199, 88);
+}
+
+#todo-add-form {
+  animation: 1s;
+  animation-name: slidein;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+@keyframes slidein {
+  from {
+    opacity: 0;
+  }
+  to {
+    margin-left: 1;
+  }
+}
+
+.sticky-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.mb8 {
+  margin-bottom: 220px;
+  margin-top: 70px;
+}
